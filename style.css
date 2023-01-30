@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-image: url(/images/pexels-brett-jordan-7568134\ 3.jpg);
+    width: 1600px;
+    height: 789px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+
+#increment-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background-color: rgb(172, 58, 30);
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 55px;
+}
+
+#save-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background-color: rgb(24, 67, 160);
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 55px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+#count-el {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 80px;
+    position: relative;
+    top: 75%;
+    left: 50%;
+    border-radius: 5px;
+}
+
+#save-el {
+    font-family: 'Itim', cursive;
+    margin-top: 30px;
+    font-size: 18px;
+}
